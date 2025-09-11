@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Tailwind CSS Masterclass</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Margin -->
+    <h3>1. Margin</h3>
+    <div class="m-1 bg-yellow-100">Margin All Around</div>
+    <div class="mx-4 bg-yellow-200">Margin from x axis</div>
+    <div class="my-4 bg-yellow-300">Margin from y axis</div>
+    <div class="mt-5 bg-yellow-400">Margin Top</div>
+    <div class="mr-4 bg-yellow-500">Margin Rigth</div>
+    <div class="ml-2 bg-yellow-600">Margin Left</div>
+    <div class="mb-4 bg-yellow-700">Margin Bottom</div>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- Arbitry Spacing -->
+    <div>2. Margin All Around</div>
+    <div class="m-[100px] bg-slate-700">margin all around</div>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- Padding -->
+    <h3>3. Padding</h3>
+    <div class="p-4 bg-lime-100">Padding all around</div>
+    <div class="px-4 bg-lime-200">Padding x axis</div>
+    <div class="py-4 bg-lime-300">Padding y axis</div>
+    <div class="pt-6 bg-lime-400">Padding Top</div>
+    <div class="pr-5 bg-lime-500">Padding Right</div>
+    <div class="pl-5 bg-lime-600">Padding Left</div>
+    <div class="pb-[50px] bg-lime-700">Padding Bottom</div>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- Space Between X -->
+    <h3>Space Between X</h3>
+    <div class="flex space-x-4">
+      <div class="p-3 bg-teal-100">01</div>
+      <div class="p-3 bg-teal-200">02</div>
+      <div class="p-3 bg-teal-300">03</div>
+    </div>
+
+    <!-- Space Between Y -->
+    <h3>Space Between Y</h3>
+    <div class="flex flex-col space-y-4">
+      <div class="p-3 bg-teal-100">01</div>
+      <div class="p-3 bg-teal-200">02</div>
+      <div class="p-3 bg-teal-300">03</div>
+    </div>
+  </body>
+</html>
