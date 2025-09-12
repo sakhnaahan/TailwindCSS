@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Tailwind CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <title>Tailwind CSS Masterclass</title>
+        <style type="text/tailwindcss"></style>
+    </head>
+    <body class="p-20">
+        <!-- Position -->
+        <p class="mb-5">Postion</p>
+        <div class="relative w-1/2 h-40 bg-green-200 mb-10">
+            <p>Relative</p>
+            <div class="absolute bottom-0 right-0 bg-teal-500 p-4">
+                Absolute
+            </div>
+        </div>
+
+        <div class="relative w-1/2 h-40 bg-green-200 mb-10">
+            <p>Relative</p>
+            <div class="absolute left-0 top-0 bg-teal-500 p-4">Absolute</div>
+        </div>
+
+        <div class="relative w-1/2 h-40 bg-green-200 mb-10">
+            <p>Relative</p>
+            <div class="absolute right-0 top-0 bg-teal-500 p-4">Absolute</div>
+        </div>
+
+        <div class="relative w-1/2 h-40 bg-green-200">
+            <p>Relative</p>
+            <div class="absolute bottom-0 bg-teal-500 p-4">Absolute</div>
+        </div>
+
+        <!-- Display -->
+        <h1 class="mb-2 mt-10">Display</h1>
+
+        <div class="bg-indigo-100 p-10 mb-10 w-[600px]">
+            <span class="inline bg-red-300">
+                1. This is display inline and wrap normally.
+            </span>
+            <span class="inline-block bg-green-300">
+                2. This is display inline-block and will not extend beyond it's parent.
+            </span>
+            <span class="block">
+                3. This is display block and will move to it's own line.
+            </span>
+            <span class="hidden">
+                This is display none and will not display at all.
+            </span>
+        </div>
+    </body>
+</html>
